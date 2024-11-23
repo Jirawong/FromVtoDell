@@ -1,0 +1,36 @@
+.box {
+  background-color: skyblue;
+  width: 300px;
+  height: 500px;
+}
+
+.hidden {
+  display: none;
+}
+
+* {
+  font-family: "Prompt", serif;
+  transition: all 0.3s ease-in-out;
+}
+
+.next {
+  position: absolute;
+  bottom: 2rem;
+}
+
+#choices {
+  position: absolute;
+  bottom: 2rem;
+}
+#choices button {
+  transition: all 0.4s ease-in-out;
+  background-color: rgba(255, 255, 255, 0.384);
+  border: none !important;
+}
+#choices button:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+#choices button:nth-child(2) {
+  margin-left: 1rem;
+}
