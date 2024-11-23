@@ -270,7 +270,7 @@ const story = {
     choices: [{ text: "continue", next: 36 }],
   },
   36: {
-    text: "เราอยากจะบอกว่า",
+    text: "แล้วก็อีกสิ่งที่เราอยากจะบอกเดล",
     speed: 150,
     bgColor: "SkyBlue",
     textColor: "White",
